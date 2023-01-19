@@ -1,28 +1,36 @@
-PROJECT BY:
+ROJECT BY:
 Poorvi Burly Prakash
 USC ID - 5214974090
 FALL 2022
 
 
 THIS FOLDER CONTAINS:
-assign2 folder with splines folder
-Images
+assign1 folder with makefile, assign1.cpp, input images, assign1 executable
+MoreData folder with more input images
+Output Screenshots folder
 pic folder for pic library
 video
 MACOSX Folder
 
 FUNCTIONALITIES EXECUTED:
 
-Pressing 'a' moves the cart. 
-Pressing 'e' moves the cart. 
-To run the program type - ./assign2 <name_of_track_file>.txt
-Example - 
-./assign2 <name_of_track_file.txt>
+Pressing '1' renders heightmap using POINTS.
+Pressing '2' renders heightmap using LINES/WIREFRAME.
+Pressing '3' renders heightmap using SOLID FILL.
+Pressing '4' renders heightmap using Blue colored vertices.
+Pressing '5' renders heightmap using Pink colored vertices.
+Pressing 't' and dragging the image enables translation.
+Dragging mouse while the left mouse button clickedproduces rotation about the x and y axes.
+Dragging mouse with the middle mouse button clicked produces rotation about the z-axis.
+Holding SHIFT and dragging the mouse with the left mouse button clicked produces scaling on the x and y axes.
 
 EXTRA CREDIT ATTEMPTED:
-1. Add OpenGL lighting to make your coaster look more realistic.
-2. Draw additional scene elements: texture-mapped wooden crossbars, a support structure that looks
-realistic, decorations on your track, something interesting in the world nearby, etc.
+Pressing '6' renders WIREFRAME on top of SOLID FILL. 
+Rendering heightmap with the coloured input image (bpp = 3). You can input the colored image using command line arguments just like we did for the grayscale image.
+Example - 
+./assign1 <Coloured-Image-filename.jpg>
 
 PLEASE NOTE:
-The video is recorded using the "goodRide" spline points.
+1. The code is able to handle a 256x256 image
+2. For Artistic consideration - I have rendered a heightmap for a grayscale flower and rendered it in a pink gradient color. Added simple animation to give the effect of the flower blooming. 
+3. The output screenshots of the spiral, SantaMonicaMountains, OhioPyle, GrandTeton, flower and coloured line are under the "Output Screenshots" folder.
